@@ -9,7 +9,7 @@
     "start:dev": "dotenv nodemon main.js"
   },
   "author": "Mauricio Chávez <mauriciochavezolea@gmail.com>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.20.1",
     "cors": "^2.8.5",
