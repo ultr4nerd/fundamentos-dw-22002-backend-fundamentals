@@ -1,0 +1,28 @@
+{
+  "name": "adoptapet",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Adopta Pet es la mejor app",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "start:dev": "dotenv nodemon main.js"
+  },
+  "author": "Mauricio Chávez <mauriciochavezolea@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-jwt": "^7.7.7",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2",
+    "mongoose-unique-validator": "^3.1.0",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv-cli": "^6.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
